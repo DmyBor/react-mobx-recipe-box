@@ -1,0 +1,53 @@
+.panel-heading {
+  margin: 5px 0px;
+  border-radius: 7px;
+}
+
+.panel-title {
+  border-radius: 7px 7px 0px 0px;
+  padding: 10px;
+  margin: 0px;
+  color: PeachPuff;
+  background: tomato;
+  font-weight: normal;
+  border: 1px solid PeachPuff;    
+}
+
+.panel-title a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.panel-collapse {
+  overflow: hidden;
+  border: 1px solid PeachPuff;
+  padding: 0px 20px;
+  max-height: 0px;
+  transition: all .5s;
+}
+
+.panel-collapse h4 {
+  font-weight: normal;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.panel-collapse ul {
+  border: 1px solid #ddd;
+  border-bottom: none;          
+  border-radius: 5px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.panel-collapse li {
+    border-bottom: 1px solid #ddd;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.div-collapse {
+  max-height: 700px;
+  padding-bottom: 10px;
+}
